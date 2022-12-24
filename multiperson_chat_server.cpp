@@ -97,11 +97,9 @@ int main(void)
             perror("select");   // ben her bir yazımda buraya girer ver işlem recv ye ulaşır.
             exit(4);
         }
-        printf("select i gectiiii\n");
         // run through the existing connections looking for data to read
         for(i = 0; i <= fdmax; i++) {
             if (FD_ISSET(i, &read_fds)) { // we got one!!
-                printf("i : %d %d\n", i, listener);
                 if (i == listener) {
                     // handle new connections
                     addrlen = sizeof remoteaddr;
@@ -123,7 +121,6 @@ int main(void)
                             newfd);
                     }
                 } else {
-                     printf("recv ile bilgi cek \n");
                     // handle data from a client
                     if ((nbytes = recv(i, buf, sizeof buf, 0)) <= 0) {
                         // got error or connection closed by client
