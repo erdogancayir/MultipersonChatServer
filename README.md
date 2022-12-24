@@ -5,4 +5,4 @@ Implementing multi user chat server
 
 git clone ...
 g++ multiperson-chat-server.cpp && ./a.out
-open two terms and for both "telnet <hostname> 9034" then start!!
+open two terms and for both "telnet hostname 9034" then start!!
