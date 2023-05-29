@@ -11,8 +11,7 @@ Bu, basit bir TCP sunucusu örneğidir. İstemcilerin bağlanmasını kabul eder
 
 ```bash
 $ gcc server.c -o server
-$ ./server
 
-git clone ...
-g++ multiperson-chat-server.cpp && ./a.out
+$ git clone ...
+$ g++ multiperson-chat-server.cpp && ./a.out
 open two terms and for both "telnet hostname 9034" then start!!
