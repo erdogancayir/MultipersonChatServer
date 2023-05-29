@@ -15,3 +15,6 @@ $ gcc server.c -o server
 $ git clone ...
 $ g++ multiperson-chat-server.cpp && server
 open two terms and for both "telnet hostname 9034" then start!!
+```
+
+Sunucu, belirli bir portta (9034 olarak belirtilmiştir) dinlemeye başlar. İstemciler bu port üzerinden sunucuya bağlanabilir ve birbirleriyle iletişim kurabilir.
