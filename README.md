@@ -18,3 +18,7 @@ open two terms and for both "telnet hostname 9034" then start!!
 ```
 
 Sunucu, belirli bir portta (9034 olarak belirtilmiştir) dinlemeye başlar. İstemciler bu port üzerinden sunucuya bağlanabilir ve birbirleriyle iletişim kurabilir.
+
+Katkıda Bulunma
+
+Eğer bu projeye katkıda bulunmak isterseniz, lütfen bir pull talebi gönderin veya bir konu açın. Katkılarınızı memnuniyetle karşılarız.
